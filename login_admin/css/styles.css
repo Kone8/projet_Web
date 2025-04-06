@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+header{
+    background-color: black;
+    width: 100%;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header form input{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+
+header img{
+    height: 150px;
+}
+
+
+
+nav{
+    background-color: rgb(236, 236, 236);
+    width: 15%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: none;
+}
+
+
+
+main{
+    background-color: rgb(174, 174, 174);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+main form{
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    padding: 2%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+main form input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+}
+
+
+
+
+
+
+aside{
+    background-color: lightyellow;
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: lightblue;
+    width: 100%;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: large;
+}
