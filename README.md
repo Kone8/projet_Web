@@ -1,4 +1,7 @@
 # projet_Web
+
+### Voir ce depot comme le merge final
+
 ## Fonctionnalité la plus intéressante est bien évidement la partie ADMIN
 Il y a deux CRUD, un pour les recettes(qui ne fonctionne pas totalement), et l'autre, pour rattraper, sur la reception des messages utilisateurs
 
