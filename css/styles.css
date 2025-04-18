@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+header{
+    background-color: black;
+    width: 100%;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header .cote_droit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header form input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+header .cote_droit #login{
+    height: 65px;
+    cursor: pointer;
+}
+
+header img{
+    height: 150px;
+}
+
+#burger{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    display: none;
+   height: 50px;
+}
+
+
+nav{
+    background-color: rgb(236, 236, 236);
+    width: 15%;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: none;
+}
+
+
+
+main{
+    background-color: rgb(174, 174, 174);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+main h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+
+main table{
+    width: 95%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 20px;
+    overflow: hidden;
+    border-style: solid;
+    padding-bottom: 5%;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main table th, main table td{
+    border-width: 2px;
+    padding: 12px 20px;
+    border-style: solid;
+}
+
+main table td{
+    border-width: 1px;
+}
+
+main table th{
+    background-color: #5d5d5d;
+    color: white;
+    font-weight: bold;
+}
+
+main table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+main table tr:hover{
+    background-color: #e0f7fa;
+  }
+
+
+main form{
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    padding: 2%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+main form input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+}
+
+main button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+main button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main button:hover{
+    background-color: #0056b3;
+}
+
+main form select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+main form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+main h1, main h2, main h3 {
+    margin-bottom: 20px;
+}
+
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+main ul li {
+    background-color: #ffffff;
+    margin: 10px auto;
+    padding: 15px 25px;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+main ul li:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+aside{
+    width: 15vw; /* 15% de la largeur de l'écran */
+    background-color: #f0f0f0; /* optionnel */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner_ads{
+    position: relative;
+    width: 100%;
+    height: 500px; /* tu peux ajuster selon besoin */
+    overflow: hidden;
+    
+}
+
+.ad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.ad.active{
+    z-index: 1;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: azure;
+    width: 100%;
+    padding: 1em;
+}
+
+footer p{
+    text-align: center;
+    font-size: large;
+}
